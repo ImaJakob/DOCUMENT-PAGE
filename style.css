@@ -1,0 +1,148 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ::before{
+    content:"" ;
+    clear: both;
+    display:table-row-group;
+
+} */
+
+/* #main-doc{
+    float: left;
+    padding: 15px;
+} */
+
+
+/* Navbar styles */
+#navbar {
+    background-color: #918c8c;
+    color: #181717;
+    padding: 10px;
+    
+}
+
+
+#navbar header {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+#navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#navbar ul li {
+    margin-bottom: 10px;
+}
+
+#navbar ul li a {
+    color: #e5dddd;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#navbar ul li a:hover {
+    background-color: #333;
+}
+
+/* Main content styles */
+#main-doc {
+    padding: 20px;
+}
+
+#introduction,
+#installation,
+#html,
+#css,
+#java_script {
+    margin-bottom: 40px;
+}
+
+#introduction header,
+#installation header,
+#html header,
+#css header,
+#java_script header{
+    font-size: 1.5rem; 
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#introduction p,
+#installation p,
+#html p,
+#css p,
+#java_script p {
+    margin-bottom: 10px;  
+}
+
+#installation p{
+ font-size: large;
+}
+
+#installation ul li{
+    font-size: large;
+   
+}
+
+
+#introduction code,
+#installation code,
+#html code,
+#css code,
+#java_script code{
+    display: block;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-size: large;
+
+}
+
+#introduction ul,
+#installation ul,
+#java_script ul{
+    margin-bottom: 10px;
+}
+
+#introduction ul li,
+#installation ul li,
+#java_script ul  li {
+    margin-bottom: 20px;
+}
+
+
+
+/* Footer styles */
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Media Query for Navbar Positioning */
+@media screen and (min-width: 768px) {
+    #navbar {
+        width: 100%;
+        height:auto ;
+        position: static;
+    }
+
+    #main-doc {
+        width: 100%;
+    }
+}
